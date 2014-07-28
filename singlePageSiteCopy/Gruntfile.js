@@ -6,13 +6,13 @@ module.exports = function(grunt) {
    sass: {
    	dist: {
 		files: {
-			'assets/style.css' : 'assets/style.scss'
+			'style.css' : 'style.scss'
 	   	}
 	}
    },
    watch: {
    	css:{
-   		files: ['assets/style.scss'],
+   		files: ['style.scss'],
    		tasks: ['sass', 'autoprefixer']
    	},
    	options: {
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
    		browsers: ['last 5 version', 'ie 7', 'ie 8', 'ie 9']
    	},
    	no_dest: {
-   		src: 'assets/style.css'
+   		src: 'style.css'
    	}
    },
    connect: {

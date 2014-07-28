@@ -1,0 +1,285 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+.container {
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  width: 1000px;
+  /*border: 1px solid red;*/
+  margin: 0 auto;
+  padding: 50px;
+  font-family: sans-serif; }
+
+.main {
+  background: url(images/The_Kills_live.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed; }
+
+.main .mainContent p {
+  color: blue; }
+
+.toolBar a {
+  float: right;
+  font-size: 20px;
+  padding: 10px; }
+
+a {
+  color: white;
+  text-shadow: 2px 2px 1px black; }
+
+.toolBar a:hover {
+  color: grey;
+  text-decoration: underline; }
+
+a:visited {
+  color: white;
+  text-shadow: 2px 2px 1px black; }
+
+.main .mainContent img {
+  height: 150px;
+  width: auto;
+  padding-top: 250px;
+  padding-left: 0px;
+  float: left; }
+
+.main .container p {
+  float: left;
+  font-size: 25px;
+  line-height: 30px;
+  padding-top: 515px;
+  padding-left: 30px; }
+
+/*about section*/
+.about {
+  background: url(images/patterns/white_carbonfiber.png);
+  padding: 0px; }
+
+.aboutJesse p {
+  float: right;
+  width: 50%;
+  padding: 30px;
+  line-height: 2em;
+  font-size: 18px; }
+
+.aboutJesse img {
+  float: left;
+  width: 30%;
+  padding: 5px; }
+
+.aboutJesse .hobbies {
+  float: left;
+  width: 30%;
+  padding-top: 7%; }
+
+/*past work section*/
+.portfolio {
+  background: url(images/patterns/carbon_fibre.png);
+  padding: 0px;
+  line-height: 25px; }
+
+.videos iframe {
+  width: 33%;
+  padding-top: 30px; }
+
+.pastOne {
+  float: left;
+  width: 33%; }
+
+.pastTwo {
+  float: left;
+  width: 33%; }
+
+.pastThree {
+  float: left;
+  width: 33%; }
+
+.portfolio p, li {
+  padding: 10px; }
+
+.pastThree p {
+  padding-left: 45px; }
+
+/*contact info section*/
+.social {
+  background: url(images/patterns/white_carbonfiber.png);
+  padding: 0px; }
+
+.social .container .socialText {
+  float: left;
+  width: 45%; }
+
+.social .container .socialText p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5em; }
+
+.social .container .socialText a:hover {
+  color: grey;
+  text-decoration: underline; }
+
+.social .container .socialIcons {
+  float: left;
+  width: 50%;
+  padding: 20px; }
+
+.social .container .socialIcons img {
+  width: 15%;
+  padding: 20px; }
+
+.social .container .socialIcons a:hover {
+  color: grey;
+  text-decoration: underline; }
+
+/*footer*/
+.footer {
+  background: url(images/patterns/carbon_fibre.png);
+  padding: 0px; }
+
+.footer .container {
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif; }
+
+.footer a {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 2px 2px black; }
+
+.footer a:hover {
+  color: grey;
+  text-decoration: underline; }
