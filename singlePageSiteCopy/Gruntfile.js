@@ -13,7 +13,7 @@ module.exports = function(grunt) {
    watch: {
    	css:{
    		files: ['style.scss'],
-   		tasks: ['sass', 'autoprefixer']
+   		tasks: ['sass', 'autoprefixer', 'svginject']
    	},
    	options: {
    		livereload: true
@@ -34,13 +34,23 @@ module.exports = function(grunt) {
    			base: ''
    		}
    	}
+   },
+   svginject: {
+      all: {
+         options: {},
+         files: {
+            'dest/SVGinject.js' : ['svgs/*.svg']}
+
+         }
+      }
    }
- });
+ );
 
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-autoprefixer');
 grunt.loadNpmTasks('grunt-contrib-connect');
+grunt.loadNpmTasks('grunt-svginject');
 
  // Default task(s).
  grunt.registerTask('default', ['connect','watch']);
